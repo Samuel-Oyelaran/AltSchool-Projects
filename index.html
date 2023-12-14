@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page for individual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sofia+Sans+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form-style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+<body>
+    <header>Sign up | individuals</header>
+    <section>
+        <div class="main-container">
+        <div class="sub-container"></div>
+        <img src="Logo.png" alt="logo">
+        <h2>For Individuals</h2>
+            <p>
+                Start benefiting from the wellness experience. For companies on increasing productivity, and improving organization wellness.
+            </p>
+        </div> 
+        <div class="sub-container-2">
+            <form action="index.html" method="POST">
+                <div class="flex gap-6">
+                    <span class="flex1">
+                        <label for="first-name"><b>First Name</b></label>
+                        <br>
+                        <input
+                        type="text"
+                        id="first-name"
+                        placeholder="Samuel"
+                        required
+                        />
+                    </span>
+               
+                <!-- <div class="flex-container-1"> -->
+                    <span class="flex2">
+                        <label for="last-name"><b>Last Name</b></label>
+                        <br>
+                        <input
+                        type="text"
+                        id="last-name"
+                        placeholder=""
+                        required
+                        />
+                    </span>
+                </div>
+                <div class="flex-container-2 flex">
+                    <span class="flex3">
+                    <label for="gender"><b>Gender</b></label>
+                    <br>
+                    <select name="Gender" id="">
+                    <option disabled selected value="text">select here</option>
+                    <option value="text">Male</option>
+                    <option value="text">Female</option>
+                    </select>
+                    </span>
+                    <br>
+                    <span class="flex4">
+                    <label for="dob"><b>Date of Birth</b></label>
+                    <br>
+                    <input type="date" id="dob" placeholder="Select here" required/>
+                    </span>
+                </div>
+                <div class="flex-container-3 flex">
+                    <span class="flex5">
+                    <label for="weight"><b>Weight(KG)</b></label>
+                    <br>
+                    <input
+                    type="text"
+                    id="weight"
+                    placeholder="Enter weight"
+                    required
+                    />
+                    </span>
+                    <br>
+                    <span class="flex6">
+                        <lable for="height"><b>Height(CM)</b></lable>
+                        <br>
+                        <input
+                        type="text"
+                        id="height"
+                        placeholder="Enter height here"
+                        required
+                        >
+                    </span>
+                    </div>
+                      <div class="flex7">
+                        <label for="activity"><b>Activity Level</b></label>
+                        <br>
+                        <select name="activity" id="">
+                        <option disable selected value="text">select here</option>
+                        <option value="text">Sedentary</option>
+                        <option value="text">Lightly Active</option>
+                        <option value="text">Moderately Active</option>
+                        <option value="text">Very Active</option>
+                        <option value="text">Extra Active</option>
+                        </select>                  
+                       
+                    </div>
+                    <div class="flex8">
+                        <label for="password"><b>Password</b></label>
+                        <br>
+                        <input type="password" minlength="8" placeholder="Enter password" id="password">
+                    </div>
+                    <br>
+                    <div class="flex9">
+                        <button type="Register" class="register">Register</button>
+                    </div>
+                    <br>
+                    <div class="flex10">
+                        <footer>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy policy</a></footer>
+                    </div>
+             
+                </div>
+            </form>
+        </div>
+        </section>
+</body>
+</html>
